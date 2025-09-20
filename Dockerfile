@@ -1,10 +1,7 @@
-# Use the official n8n image as the base
+# Use official n8n Docker image
 FROM n8nio/n8n:latest
 
-# Set working directory
-WORKDIR /data
-
-# Expose n8n default port
+# Expose n8n port
 EXPOSE 5678
 
 # Start n8n
